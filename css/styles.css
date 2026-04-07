@@ -7,10 +7,42 @@ body {
 ul,
 ol {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
 }
 
 a {
     text-decoration: none;
+}
+
+.container {
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.page-header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
 }
 
 .logo {
@@ -23,6 +55,11 @@ a {
     color: #4d5ae5;
 }
 
+.header-logo {
+    padding: 24px 0;
+    margin-right: 76px;
+}
+
 .header-logo .logo-part {
     color: #2e2f42;
 }
@@ -31,7 +68,15 @@ a {
     color: #f4f4fd;
 }
 
+.nav-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
 .nav-link {
+    display: block;
+    padding: 24px 0;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -41,9 +86,18 @@ a {
 
 .contacts {
     font-style: normal;
+    margin-left: auto;
+}
+
+.contacts-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
 }
 
 .contacts-link {
+    display: block;
+    padding: 24px 0;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -51,15 +105,35 @@ a {
     color: #434455;
 }
 
+/* Hero Section */
+
+.box-hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 120px;
+    gap: 48px;
+    width: 1440px;
+    height: 600px;
+}
+
 .hero-section {
     background-color: #2e2f42;
+}
+
+.box-hero {
+    width: 1440px;
+    height: 600px;
+    padding: 188px 472px 292px 472px;
 }
 
 .page-title {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07;
+    line-height: 1.07143;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
@@ -67,12 +141,21 @@ a {
 }
 
 .page-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     background-color: #4d5ae5;
     color: #fff;
+    border-radius: 4px;
+    padding: 16px;
+    width: 169px;
+    height: 56px;
+    gap: 48px;
 }
 
 .page-button:hover {
@@ -87,6 +170,70 @@ a {
 .page-button:focus,
 .page-button:hover {
     cursor: pointer;
+}
+
+/* Our Features Section */
+
+.container-strategy {
+    width: 1440px;
+    height: 344px;
+
+}
+
+.menu-list {
+    /*display: flex;*/
+    align-items: center;
+    gap: 24px;
+    width: calc((100% - 72%) / 4);
+    padding: 120px 156px;
+}
+
+.box-strategy {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    gap: 24px;
+    width: 264px;
+    height: 104px;
+    color: #2e2f42;
+}
+
+.box-punctuality {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    gap: 24px;
+    width: 264px;
+    height: 104px;
+    color: #2e2f42;
+}
+
+.box-diligence {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    gap: 24px;
+    width: 264px;
+    height: 104px;
+    color: #2e2f42;
+}
+
+.box-technologies {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    gap: 24px;
+    width: 264px;
+    height: 104px;
+    color: #2e2f42;
 }
 
 .name-strategy,
@@ -111,17 +258,78 @@ a {
     color: #434455;
 }
 
-.page-team {
+/* Team section */
+
+.container-team {
+    width: 1440px;
+    height: 732px;
     background-color: #f4f4fd;
 }
 
-.page-team-name {
-    font-weight: 700;
+.title-team-name {
+    /*font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 120px;
+    text-align: center;*/
+    /*color: #2e2f42;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;*/
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.07143;
+    letter-spacing: 0.02em;
+    padding: 120px 0 0;
     text-align: center;
-    color: #2e2f42;
+    margin-bottom: 72px;
+}
+
+.team-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+
+}
+
+.box-page-mark,
+.box-page-tom,
+.box-page-camila,
+.box-page-daniel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 32px;
+    border-radius: 0 0 4px 4px;
+    padding-block: 0px 32px;
+    padding-inline: 0px;
+    width: 264px;
+    height: 382px;
+    background-color: #fff;
+}
+
+.card-content-mark,
+.card-content-tom,
+.card-content-camila,
+.card-content-daniel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+    width: 232px;
+    height: 56px;
 }
 
 .text-mark,
