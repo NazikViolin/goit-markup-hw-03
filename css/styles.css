@@ -181,10 +181,10 @@ a {
 }
 
 .menu-list {
-    /*display: flex;*/
-    align-items: center;
+    display: flex;
+    justify-content: center;
     gap: 24px;
-    width: calc((100% - 72%) / 4);
+    /*width: calc((100% - 72%) / 4);*/
     padding: 120px 156px;
 }
 
