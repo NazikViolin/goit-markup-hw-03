@@ -126,6 +126,9 @@ a {
 .box-hero {
     width: 1440px;
     height: 600px;
+    /*padding: 188px 316px 188px 316px;
+    width: 496px;
+    align-items: center;*/
     padding: 188px 472px 292px 472px;
 }
 
@@ -366,7 +369,6 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
-    text-align: center;
     color: #434455;
 }
 
@@ -375,7 +377,6 @@ a {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    text-align: center;
     text-align: center;
     color: #434455;
 }
@@ -386,28 +387,96 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
-    text-align: center;
     color: #434455;
 }
 
-.page-portfolio-name {
-    font-weight: 700;
+/*Our Portfolio*/
+
+.page-portfolio {
+    /*font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    width: 1440px;
+    /*height: 1240px;*/
+    /*padding: 120px 0 72px 0;
     text-align: center;
+    color: #2e2f42;*/
+    width: 1440px;
+    margin: 0 auto;
+    padding: 120px 156px;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+.container-portfolio {
+    /*width: 1440px;*/
+    /*height: 1240px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 48px 24px;*/
+    width: 1158px;
+    height: 888px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.portfolio-title {
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 72px;
     color: #2e2f42;
 }
 
-.text-banking {
-    font-weight: 500;
-    font-size: 20px;
+.list-portfolio {
+    width: 1128px;
+    height: 888px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 24px;
+}
+
+/* BANKING */
+
+.item-portfolio {
+    width: 360px;
+    height: 420px;
+    /*width: calc((100% - 48px) /3);*/
+    background-color: #ffffff;
+    /*border: 1px solid #e7e9fc;*/
+}
+
+
+
+.card-bank-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+    border-bottom: 1px solid #e7e9fc;
+    border-left: 1px solid #e7e9fc;
+    border-right: 1px solid #e7e9fc;
+    padding-block: 32px;
+    padding-inline: 16px;
+    width: 360px;
+    height: 120px;
+}
+
+.portfolio-text-bank {
+    /*font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: #2e2f42;*/
+    font-weight: 500;
+    font-size: 20px;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
-.text-banking-app {
+.portfolio-type {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -415,15 +484,22 @@ a {
     color: #434455;
 }
 
-.text-cashless {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
+.card-pay {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+    border-bottom: 1px solid #e7e9fc;
+    border-left: 1px solid #e7e9fc;
+    border-right: 1px solid #e7e9fc;
+    padding-block: 32px;
+    padding-inline: 16px;
+    width: 360px;
+    height: 120px;
 }
 
-.text-cashless-payment {
+.text-pay {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -431,7 +507,29 @@ a {
     color: #434455;
 }
 
-.text-meditation {
+.text-pay {
+    font-weight: 500;
+    font-size: 20px;
+    color: #2e2f42;
+    margin-bottom: 8px;
+}
+
+.card-med {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+    border-bottom: 1px solid #e7e9fc;
+    border-left: 1px solid #e7e9fc;
+    border-right: 1px solid #e7e9fc;
+    padding-block: 32px;
+    padding-inline: 16px;
+    width: 360px;
+    height: 120px;
+}
+
+.text-med {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -439,20 +537,34 @@ a {
     color: #2e2f42;
 }
 
-.text-meditation-app {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
+.cadr-taxi {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+    border-bottom: 1px solid #e7e9fc;
+    border-left: 1px solid #e7e9fc;
+    border-right: 1px solid #e7e9fc;
+    padding-block: 32px;
+    padding-inline: 16px;
+    width: 360px;
+    height: 120px;
 }
 
 .text-taxi {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+    border-bottom: 1px solid #e7e9fc;
+    border-left: 1px solid #e7e9fc;
+    border-right: 1px solid #e7e9fc;
+    padding-block: 32px;
+    padding-inline: 16px;
+    width: 360px;
+    height: 120px;
 }
 
 .text-taxi-marketing {
@@ -464,11 +576,18 @@ a {
 }
 
 .text-screen {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+    border-bottom: 1px solid #e7e9fc;
+    border-left: 1px solid #e7e9fc;
+    border-right: 1px solid #e7e9fc;
+    padding-block: 32px;
+    padding-inline: 16px;
+    width: 360px;
+    height: 120px;
 }
 
 .text-screen-desing {
@@ -480,11 +599,18 @@ a {
 }
 
 .text-online {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+    border-bottom: 1px solid #e7e9fc;
+    border-left: 1px solid #e7e9fc;
+    border-right: 1px solid #e7e9fc;
+    padding-block: 32px;
+    padding-inline: 16px;
+    width: 360px;
+    height: 120px;
 }
 
 .text-online-marketing {
