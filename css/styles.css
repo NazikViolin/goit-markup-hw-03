@@ -26,18 +26,18 @@ a {
 }
 
 .container {
+    display: flex;
+    align-items: center;
     max-width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
+    background-color: #fff;
 }
 
 .page-header {
     border-bottom: 1px solid #e7e9fc;
-}
-
-.header-container {
-    display: flex;
-    align-items: center;
+    width: 1440px;
+    height: 72px;
 }
 
 .header-nav {
@@ -92,6 +92,9 @@ a {
 .contacts-list {
     display: flex;
     align-items: center;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
     gap: 40px;
 }
 
@@ -107,7 +110,7 @@ a {
 
 /* =======HERO SECTION======= */
 
-.container {
+.hero-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -118,6 +121,18 @@ a {
     width: 1440px;
     height: 600px;
 }
+
+/*.hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 120px;
+    gap: 48px;
+    width: 1440px;
+    height: 600px;
+}*/
 
 .hero-section {
     background-color: #2e2f42;
@@ -654,7 +669,7 @@ a {
     padding: 100px 0;
 }
 
-.container {
+.container footer-page {
     width: 1158px;
     margin: 0 auto;
     /*padding: 0;*/
