@@ -62,6 +62,7 @@ img {
 .header-nav {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     /*margin-right: 156px;
     /*margin-left: 156px;*/
 }
@@ -240,7 +241,7 @@ img {
 
 /* =====OUR FEATURES SECTION===== */
 
-.feature .container {
+.feature {
     padding: 120px 0;
     /*width: 1440px;
     height: 344px;*/
@@ -264,8 +265,8 @@ img {
     /*line-height: 24px;*/
     letter-spacing: 0.02em;
     /*gap: 24px;*/
-    /*width: 264px;
-    height: 104px;*/
+    /*width: 264px;*/
+    /*height: 104px;*/
     color: #2e2f42;
     margin-bottom: 8px;
 }
@@ -282,28 +283,23 @@ img {
 }
 
 .section-title {
-    /*font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
+    /*letter-spacing: 0.02em;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    height: 120px;
-    text-align: center;*/
+    height: 120px;*/
+    /*text-align: center;*/
     /*color: #2e2f42;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 36px;
-
-    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;*/
     /*font-family: "Roboto", sans-serif;
     font-weight: 700;*/
     font-size: 36px;
-    line-height: 1.07143;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     /*padding: 120px 0 0;*/
     text-align: center;
@@ -339,25 +335,25 @@ img {
     gap: 8px;
     width: 232px;
     height: 56px;*/
-    padding: 32px 0;
+    padding: 32px 16px;
     text-align: center;
 }
 
 .team-name {
     font-weight: 500;
-    /*font-size: 20px;
+    font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    text-align: center;*/
+    text-align: center;
     margin-bottom: 8px;
     color: #2e2f42;
 }
 
 .team-position {
     font-size: 16px;
-    /*line-height: 1.5;
+    line-height: 1.5;
     letter-spacing: 0.02em;
-    text-align: center;
+    /*text-align: center;
     color: #434455;*/
 }
 
@@ -376,8 +372,8 @@ img {
     flex-wrap: wrap;
     row-gap: 48px;
     column-gap: 24px;
-    width: 1128px;
-    height: 888px;
+    /*width: 1128px;
+    height: 888px;*/
     /*padding: 232px 156px 120px 156px;*/
     /*margin: 0 auto;*/
     /*padding: 0;*/
@@ -396,12 +392,15 @@ img {
     padding: 32px 16px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 8px;
+    align-items: flex-start;
+    /*gap: 8px;*/
 }
 
 .portfolio-title {
     font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
     margin-bottom: 8px;
     color: #2e2f42;
     /*font-weight: 700;
@@ -438,6 +437,7 @@ img {
     font-weight: 700;
     font-size: 18px;
     color: #4d5ae5;
+    display: inline-block;
     margin-bottom: 16px;
     text-transform: uppercase;
 }
@@ -453,7 +453,8 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     max-width: 264px;
-    height: 72px;
+    margin: 0;
     color: #f4f4fd;
-    margin: 16px 0 auto;
+    /*margin: 16px 0 auto;*/
+    /*height: 72px;*/
 }
